@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Wrench, Phone, MessageCircle, Mail, Snowflake, Wind, WashingMachine } from "lucide-react";
+import { Phone, MessageCircle, Mail, Snowflake, Wind, WashingMachine } from "lucide-react";
 import { PHONE, PHONE_TEL, WHATSAPP_URL, COMPANY, COMPANY_FULL, EMAIL } from "@/lib/constants";
 
 export default function Footer() {
@@ -10,12 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:pr-6">
             <Link to="/" className="flex items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-cyan-400">
-                <Wrench className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-extrabold text-white">
-                Cool<span className="text-cyan-400">Care</span>
-              </span>
+              <img src="/AV.png" alt="AV Appliance Services" className="h-12 w-auto max-w-[190px] object-contain" />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
               {COMPANY_FULL} — reliable AC, refrigerator &amp; washing machine repair services.

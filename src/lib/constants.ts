@@ -4,8 +4,8 @@ export const WHATSAPP_URL = "https://wa.me/917702177588";
 export const WHATSAPP_MSG = "Hi, I need appliance repair service.";
 export const WHATSAPP_URL_MSG = `https://wa.me/917702177588?text=${encodeURIComponent(WHATSAPP_MSG)}`;
 
-export const COMPANY = "CoolCare";
-export const COMPANY_FULL = "CoolCare Appliance Services";
+export const COMPANY = "AV Appliance Services";
+export const COMPANY_FULL = "AV Appliance Services";
 export const EMAIL = "andrayya8@gmail.com";
 
 export const IMAGES = {

@@ -6,7 +6,7 @@ type SEOProps = {
   path?: string;
 };
 
-const SITE = "CoolCare Appliance Services";
+const SITE = "AV Appliance Services";
 
 export function useSEO({ title, description, path = "" }: SEOProps) {
   useEffect(() => {
@@ -15,7 +15,7 @@ export function useSEO({ title, description, path = "" }: SEOProps) {
     setMeta("og:title", title, true);
     setMeta("og:description", description, true);
     setMeta("og:type", "website", true);
-    setMeta("og:url", `https://coolcare.services${path}`, true);
+    setMeta("og:url", `${window.location.origin}${path}`, true);
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", title);
     setMeta("twitter:description", description);

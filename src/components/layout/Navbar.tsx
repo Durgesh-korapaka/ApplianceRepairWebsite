@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, Wrench, CalendarCheck } from "lucide-react";
+import { Menu, X, Phone, CalendarCheck } from "lucide-react";
 import { PHONE, PHONE_TEL } from "@/lib/constants";
 
 const NAV_LINKS = [
@@ -40,17 +40,7 @@ export default function Navbar() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between lg:h-20">
           <Link to="/" className="flex items-center gap-2.5 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 shadow-lg shadow-blue-500/30 group-hover:scale-105 transition-transform">
-              <Wrench className="h-5 w-5 text-white" />
-            </div>
-            <div className="leading-tight">
-              <span className={`block text-lg font-extrabold tracking-tight ${scrolled ? "text-slate-900" : "text-slate-900"}`}>
-                Cool<span className="text-cyan-600">Care</span>
-              </span>
-              <span className="block text-[10px] font-medium uppercase tracking-widest text-slate-500">
-                Appliance Services
-              </span>
-            </div>
+            <img src="/AV.png" alt="AV Appliance Services" className="h-12 w-auto max-w-[190px] object-contain" />
           </Link>
 
           {/* Desktop nav */}
