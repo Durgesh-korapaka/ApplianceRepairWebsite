@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Service icon favicon">
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#2563eb"/>
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M89 34a18 18 0 0 0-25 25l-17 17a9 9 0 0 0 13 13l17-17a18 18 0 0 0 25-25z"/>
+    <path d="M44 84l-16 16"/>
+    <path d="M30 98l18-18"/>
+    <path d="M77 55l-12 12"/>
+  </g>
+</svg>

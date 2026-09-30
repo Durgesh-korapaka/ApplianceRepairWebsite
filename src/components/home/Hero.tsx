@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Phone, CalendarCheck, Snowflake, Wind, WashingMachine, MessageCircle, Star } from "lucide-react";
-import { PHONE_TEL, WHATSAPP_URL, IMAGES } from "@/lib/constants";
+import { PHONE, PHONE_TEL, WHATSAPP_URL, IMAGES } from "@/lib/constants";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -158,7 +158,7 @@ export default function Hero() {
               </div>
               <div>
                 <p className="text-xs text-slate-500">Call us now</p>
-                <a href={PHONE_TEL} className="text-sm font-bold text-slate-900">7720177588</a>
+                <a href={PHONE_TEL} className="text-sm font-bold text-slate-900">{PHONE}</a>
               </div>
               <a
                 href={WHATSAPP_URL}

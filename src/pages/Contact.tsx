@@ -7,7 +7,7 @@ import { useSEO } from "@/lib/seo";
 export default function Contact() {
   useSEO({
     title: "Contact Us — Appliance Repair Service",
-    description: "Contact us for fast AC, refrigerator and washing machine repair services. Call 7720177588 or send us a request.",
+    description: "Contact us for fast AC, refrigerator and washing machine repair services. Call 7702177588 or send us a request.",
     path: "/contact",
   });
 

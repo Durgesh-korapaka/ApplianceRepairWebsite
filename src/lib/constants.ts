@@ -1,12 +1,12 @@
-export const PHONE = "7720177588";
-export const PHONE_TEL = "tel:7720177588";
-export const WHATSAPP_URL = "https://wa.me/917720177588";
+export const PHONE = "7702177588";
+export const PHONE_TEL = "tel:7702177588";
+export const WHATSAPP_URL = "https://wa.me/917702177588";
 export const WHATSAPP_MSG = "Hi, I need appliance repair service.";
-export const WHATSAPP_URL_MSG = `https://wa.me/917720177588?text=${encodeURIComponent(WHATSAPP_MSG)}`;
+export const WHATSAPP_URL_MSG = `https://wa.me/917702177588?text=${encodeURIComponent(WHATSAPP_MSG)}`;
 
 export const COMPANY = "CoolCare";
 export const COMPANY_FULL = "CoolCare Appliance Services";
-export const EMAIL = "support@coolcare.services";
+export const EMAIL = "andrayya8@gmail.com";
 
 export const IMAGES = {
   heroAC: "https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=900",
